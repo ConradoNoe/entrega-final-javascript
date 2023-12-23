@@ -1,0 +1,746 @@
+@charset "UTF-8";
+/*variables*/
+/* VAR INICIO*/
+/* TAMAÑO FUENTES*/
+/* COLORES */
+/* FUENTES*/
+/*VAR FINALIZA*/
+/*reset*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&family=PT+Serif:wght@400;700&display=swap");
+/*font-family: 'Noto Serif', serif;
+font-family: 'PT Serif', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Russo+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+}
+
+.body-form {
+  background-color: rgb(41, 41, 41);
+}
+
+/*header*/
+/* NAVBAR INICIA*/
+header nav {
+  font-size: 20PX;
+}
+header nav .navbar {
+  background-color: rgb(0, 0, 0) !important;
+}
+header nav .navbar-brand {
+  color: white !important;
+  font-size: 20PX;
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Russo One", sans-serif;
+}
+header nav .navbar-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+header nav .navbar-nav .nav-item .nav-link {
+  color: white !important;
+}
+header nav .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(70, 218, 220) !important;
+}
+
+/* NAVBAR FINALIZA*/
+/*footer*/
+.footer {
+  background-color: rgba(32, 31, 31, 0.819);
+  height: 100px;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  margin-top: 30px;
+}
+.footer p {
+  padding-top: 10px;
+}
+.footer .redes a i {
+  color: white;
+}
+
+/*index*/
+.main-index-general {
+  height: 100vh;
+}
+.main-index-general .jumbotron {
+  height: 1000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/index-bk.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+.main-index-general .jumbotron .tit-principal {
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 50px 10px;
+  font-family: "Anton", sans-serif, "Fjalla One", sans-serif, "Russo One", sans-serif;
+  color: rgb(143, 204, 191);
+}
+.main-index-general .jumbotron p {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 17px;
+}
+.main-index-general .jumbotron .jumbotron-button {
+  background-color: rgb(75, 75, 75);
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 70px;
+}
+.main-index-general .jumbotron .jumbotron-button:hover {
+  color: rgb(70, 218, 220);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.main-section-index {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-section-index .sec-main {
+  height: 500px;
+}
+.main-section-index .sec-main .p-obj {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.main-section-index .sec-main .objetivo {
+  text-transform: capitalize;
+  font-size: 35px;
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  color: rgb(115, 170, 176);
+}
+.main-section-index .sec-main .button-index {
+  background-color: rgb(75, 75, 75);
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  text-align: center;
+  text-transform: capitalize;
+}
+.main-section-index .sec-main .button-index:hover {
+  color: rgb(70, 218, 220);
+}
+.main-section-index .sec-main .fa-solid {
+  font-size: 50px;
+  border: 2px solid white;
+  padding: 20px 40px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+}
+
+.index-subtitle {
+  text-align: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: rgb(115, 170, 176);
+  margin: 25px;
+  text-transform: capitalize;
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.sect-uno-index .contenedor-img-john {
+  height: 300px;
+  border: 2px solid black;
+  background-image: url(./multimedia/john-john-florence-deja-hurley.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+.sect-uno-index .contenedor-surf-john-byw {
+  background-image: url(./multimedia/john\ surf\ black\ and\ \ white.jpeg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
+.sect-uno-index .info-john {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-size: 17px;
+}
+
+hr {
+  color: white;
+}
+
+/*sobre nos*/
+.main-nos .main-sect-sobre-nos {
+  height: 100vh;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/bk-sobre-nos-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-nos .main-sect-sobre-nos .title-nos {
+  font-size: 50px;
+  color: rgb(143, 204, 191);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-family: "Anton", sans-serif, "Fjalla One", sans-serif, "Russo One", sans-serif;
+}
+.main-nos .main-sect-sobre-nos .main-sobre-nos-p {
+  padding-top: 120px;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+.main-nos .main-sect-sobre-nos .main-button-sobre-nos {
+  padding: 10px 20px;
+  background-color: rgb(75, 75, 75);
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  border: 1px solid white;
+  margin: 30px;
+}
+.main-nos .main-sect-sobre-nos .main-button-sobre-nos:hover {
+  color: rgb(70, 218, 220);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.general-section .articles-sobre-nos .subtitle-nos-2 {
+  color: rgb(115, 170, 176);
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+}
+.general-section .articles-sobre-nos .parrafito-s-n {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+.general-section .aside-sobre-nos {
+  border-left: 2px solid white;
+}
+.general-section .aside-sobre-nos .subtitle-nos-2 {
+  color: rgb(115, 170, 176);
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+}
+.general-section .aside-sobre-nos .parrafito-s-n {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.sec-nos-redes {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/banner-nos-def.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.sec-nos-redes .subtitle-redes {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding-top: 20px;
+  text-transform: capitalize;
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+}
+
+/*spots*/
+.main-container-spots {
+  height: 100%;
+}
+.main-container-spots .row .art-spots-1 {
+  background-position: center;
+  background-size: cover;
+}
+.main-container-spots .row .art-spots-1 .art-tit-spots {
+  color: rgb(143, 204, 191);
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Anton", sans-serif, "Fjalla One", sans-serif, "Russo One", sans-serif;
+}
+.main-container-spots .row .art-spots-1 .main-p-spots {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main-container-spots .row .art-spots-1 .boton-spots-en-vivo {
+  background-color: rgb(75, 75, 75);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  float: right;
+}
+.main-container-spots .row .art-spots-1 .boton-spots-en-vivo:hover {
+  color: rgb(70, 218, 220);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+#spots {
+  background-color: rgba(0, 255, 255, 0);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#spots .card {
+  height: 400px;
+  width: 270px;
+  background-color: gray;
+  text-align: center;
+  border: 3px solid rgb(16, 15, 15);
+  margin: 40px;
+}
+#spots .card:hover {
+  transition: 1.2s;
+  transform: scale(1.2);
+}
+#spots .card .card-title {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  padding-top: 15px;
+  font-family: "Anton", sans-serif, "Fjalla One", sans-serif, "Russo One", sans-serif;
+}
+#spots .card p {
+  color: white;
+  margin: 5px;
+  padding-top: 10px;
+}
+#spots .card a {
+  background-color: rgb(75, 75, 75);
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+}
+#spots .card a:hover {
+  color: rgb(70, 218, 220);
+}
+#spots .card .card-img {
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#spots .card .img-uno {
+  background-image: url(./multimedia/chapadmalal-640x439.jpeg);
+}
+#spots .card .img-dos {
+  background-image: url(./multimedia/mar\ del\ plata\ surf.webp);
+}
+#spots .card .img-tres {
+  background-image: url(./multimedia/El-Muelle-de-Miramar.jpg);
+}
+#spots .card .img-cuatro {
+  background-image: url(./multimedia/mar\ de\ las\ pampas.jpeg);
+}
+#spots .card .img-cinco {
+  background-image: url(./multimedia/mar\ chiquita.jpeg);
+}
+#spots .card .img-seis {
+  background-image: url(./multimedia/mar\ de\ ajo.jpeg);
+}
+#spots .card .img-siete {
+  background-image: url(./multimedia/tuyu.webp);
+}
+#spots .card .img-ocho {
+  background-image: url(./multimedia/quequen.jpeg);
+}
+#spots .card .img-nueve {
+  background-image: url(./multimedia/villa\ gesel.jpeg);
+}
+
+.subtitle-spots {
+  height: 100px;
+  color: rgb(115, 170, 176);
+  font-size: 35px;
+  text-align: center;
+  font-family: "Anton", sans-serif, "Fjalla One", sans-serif, "Russo One", sans-serif;
+}
+
+/*accesorios*/
+.main-accesorios .main-sect-accesorios {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/img-bk-accesorios.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-accesorios .main-sect-accesorios .title-accesorios {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(143, 204, 191);
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Russo One", sans-serif;
+  padding-top: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.main-accesorios .main-sect-accesorios p {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+.main-accesorios .main-sect-accesorios .button-accesorios {
+  background-color: rgb(75, 75, 75);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+.main-accesorios .main-sect-accesorios .button-accesorios:hover {
+  color: rgb(70, 218, 220);
+}
+
+.accesorios-sec-2 .accesorios-general .accesorios-subtitle {
+  font-family: "Anton", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  color: rgb(115, 170, 176);
+  font-size: 35px;
+  margin-top: 40px;
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.accesorios-sec-2 .accesorios-general p {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+.accesorios-sec-2 .accesorios-general .img-acc {
+  width: 100%;
+  height: 300px;
+}
+.accesorios-sec-2 .accesorios-general .img-accesorios-uno {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/surf-boards-accesorios.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.accesorios-sec-2 .accesorios-general .img-accesorios-dos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/quillas-accesorios.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.accesorios-sec-2 .accesorios-general .img-accesorios-tres {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/leash.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.accesorios-sec-2 .accesorios-general .img-accesorios-cuatro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/Wetsuit-accesorios.webp);
+  background-position: center;
+  background-size: cover;
+}
+.accesorios-sec-2 .accesorios-general .button-accesorios {
+  background-color: grey;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.accesorios-sec-2 .accesorios-general .button-accesorios:hover {
+  color: rgb(70, 218, 220);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+/*contacto*/
+.form-pag {
+  min-height: 1000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/contacto-bk-uno.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.form-pag #miFormulario {
+  background-color: rgba(255, 255, 255, 0.53);
+  border: 1px solid black;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.form-pag #miFormulario .form-title {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+.form-pag #miFormulario .form-p {
+  font-weight: 300;
+}
+.form-pag #miFormulario .form-link {
+  font-weight: 400;
+  color: black;
+}
+.form-pag #miFormulario .form-container {
+  margin-top: 3em;
+  display: grid;
+  gap: 2.5em;
+}
+.form-pag #miFormulario .form-container .form-group {
+  position: relative;
+}
+.form-pag #miFormulario .form-container .form-group .form-input {
+  width: 100%;
+  background: none;
+  color: grey;
+  font-size: 1rem;
+  padding: 0.6em 0.3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+}
+
+/*mediaqueriees*/
+@media only screen and (min-width: 1000px) {
+  .main-index-general {
+    height: 100%;
+  }
+  .main-index-general .jumbotron .tit-principal {
+    font-size: 100px;
+    padding-top: 60px;
+  }
+  .main-index-general .jumbotron p {
+    margin: 20px;
+    font-size: 25px;
+  }
+  .main-index-general .jumbotron .jumbotron-button {
+    float: right;
+    margin-right: 50px;
+  }
+}
+/*index fin*/
+@media only screen and (min-width: 1000px) {
+  .main-nos .main-sect-sobre-nos .title-nos {
+    font-size: 100px;
+  }
+  .main-nos .main-sect-sobre-nos .main-sobre-nos-p {
+    font-size: 25px;
+    margin: 30px;
+    padding-top: 100px;
+  }
+  .main-nos .main-sect-sobre-nos .main-button-sobre-nos {
+    float: right;
+    margin-right: 100px;
+  }
+}
+/*sobrenos fin*/
+@media only screen and (min-width: 1000px) {
+  .main-container-spots {
+    height: 100%;
+  }
+  .main-container-spots .row .art-spots-1 .art-tit-spots {
+    font-size: 75px;
+  }
+  .main-container-spots .row .art-spots-1 .main-p-spots {
+    font-size: 19px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .main-container-spots .row .art-spots-1 .boton-spots-en-vivo {
+    float: right;
+    margin-right: 50px;
+  }
+  .main-container-spots .row .art-spots-1 .boton-spots-en-vivo:hover {
+    color: rgb(70, 218, 220);
+  }
+  .subtitle-spots {
+    font-size: 50PX;
+  }
+}
+/*spots fin*/
+@media only screen and (min-width: 1000px) {
+  .main-accesorios .main-sect-accesorios .title-accesorios {
+    font-size: 100px;
+  }
+  .main-accesorios .main-sect-accesorios p {
+    margin: 50px;
+    font-size: 25px;
+  }
+  .main-accesorios .main-sect-accesorios .button-accesorios {
+    float: right;
+    margin-right: 50px;
+  }
+}
+/*accesorios fin*/
+
+.shop-content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 black;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 100px;
+  margin: 40px;
+  background-color: rgb(51, 51, 51);
+  border: 2px solid black;
+}
+.title-shop{
+  font-size: 100px;
+  
+  text-align: center;
+  font-family: "Anton", sans-serif, "Fjalla One", sans-serif, "Russo One", sans-serif;
+  color: rgb(143, 204, 191);
+}
+
+.tamanio{
+  color: white;
+}
+.marcaColor{
+  color: white;
+}
+.tipoColor{
+  color: white;
+}
+.card > img{
+  width: 100%;
+  height: 250px;
+}
+.price{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.card button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover{
+  opacity: 0.7;
+}
+
+.ver-carrito{
+  font-size: 25px;
+  margin: 10px;
+  
+  
+}
+.modal-header-title{
+  color: white;
+}
+
+.modal-header-button{
+  color: white;
+}
+
+.modal-container{
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(79, 79, 79);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+}
+.modal-container :-webkit-scrollbar{
+  display: none;
+}
+.modal-header{
+  display: flex;
+  justify-content: space-around;
+  background-color: black !;
+  color: white;
+  width: 100%;
+}
+.modal-header-title{
+  justify-self: start;
+}
+.modal-header-button{
+  cursor: pointer;
+}
+.modal-container > .modal-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.modal-container > div >img{
+  height: 120px;
+  width: 120px;
+}
+.carrito-total{
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.delete-product{
+  cursor: pointer;
+}
+.restar{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.sumar{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+

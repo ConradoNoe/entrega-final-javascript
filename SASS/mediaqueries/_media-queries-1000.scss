@@ -1,0 +1,72 @@
+@media only screen and (min-width: 1000px) {
+    .main-index-general{
+        height: 100%;
+    }
+    .main-index-general .jumbotron .tit-principal {
+        font-size: 100px;
+        padding-top: 60px;
+    }
+    .main-index-general .jumbotron p {
+        margin: 20px;
+        font-size: 25px;
+        
+    }
+    .main-index-general .jumbotron .jumbotron-button {
+        float: right;
+        margin-right: 50px;
+    }
+}
+/*index fin*/
+@media only screen and (min-width:1000px) {
+    .main-nos .main-sect-sobre-nos .title-nos {
+        font-size: 100px;
+    }
+    .main-nos .main-sect-sobre-nos .main-sobre-nos-p {
+        font-size: 25px;
+        margin: 30px;
+        padding-top: 100px;
+    }
+    .main-nos .main-sect-sobre-nos .main-button-sobre-nos {
+        float: right;
+        margin-right: 100px;
+    }
+}
+/*sobrenos fin*/
+@media only screen and (min-width:1000px){
+    .main-container-spots {
+        height: 100%;
+    }
+    .main-container-spots .row .art-spots-1 .art-tit-spots {
+        font-size: 75px;
+    }
+    .main-container-spots .row .art-spots-1 .main-p-spots {
+        font-size: 19px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .main-container-spots .row .art-spots-1 .boton-spots-en-vivo {
+        float: right;
+        margin-right: 50px;
+        &:hover {
+            color: $hover-color;
+        }
+    }
+    .subtitle-spots {
+        font-size: 50PX;
+    }
+}
+/*spots fin*/
+@media only screen and (min-width:1000px) {
+    .main-accesorios .main-sect-accesorios .title-accesorios {
+        font-size: 100px;
+    }
+    .main-accesorios .main-sect-accesorios p {
+        margin: 50px;
+        font-size: 25px;
+    }
+    .main-accesorios .main-sect-accesorios .button-accesorios {
+        float: right;
+        margin-right: 50px;
+    }
+}
+/*accesorios fin*/

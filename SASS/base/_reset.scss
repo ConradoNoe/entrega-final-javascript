@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&family=PT+Serif:wght@400;700&display=swap');
+    /*font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Russo+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $bk-general;
+}
+.body-form {
+    background-color: $bk-general;
+}

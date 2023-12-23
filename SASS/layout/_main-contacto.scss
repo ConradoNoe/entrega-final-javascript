@@ -1,0 +1,47 @@
+.form-pag {
+    min-height: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/contacto-bk-uno.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    form {
+        background-color: rgba(255, 255, 255, 0.53);
+        border: 1px solid black;
+        margin: auto;
+        width: 90%;
+        max-width: 400px;
+        padding: 4.5em 3em;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+        text-align: center;
+        .form-title {
+            font-size: 2rem;
+            margin-bottom: .5em;
+        }
+        .form-p {
+            font-weight: 300;
+        }
+        .form-link {
+            font-weight: 400;
+            color: black;
+        }
+        .form-container {
+            margin-top: 3em;
+            display: grid;
+            gap: 2.5em;
+            .form-group {
+                position: relative;
+                .form-input {
+                    width: 100%;
+                    background: none;
+                    color: grey;
+                    font-size: 1rem;
+                    padding: .6em .3em;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+.main-container-spots {
+    height: 100%;
+    .row {
+        .art-spots-1 {
+            background-position: center;
+            background-size: cover;
+            .art-tit-spots {
+                color: $color-titles;
+                font-size: $t2-size;
+                text-align: center;
+                margin-top: 30px;
+                font-family: $font1;
+            }
+            .main-p-spots {
+                color: $letra;
+                font-size: $p-xs;
+                margin: 10px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .boton-spots-en-vivo {
+                background-color: $button-bk;
+                padding: 10px 20px;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 1px solid white;
+                float: right;
+                &:hover {
+                    color: $hover-color;
+                    transform: scale(1.1);
+                    transition: 0.7s;
+                }
+            }
+        }
+    }
+}
+#spots {
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    .card {
+        height: 400px;
+        width: 270px;
+        background-color: gray;
+        text-align: center;
+        border: 3px solid rgb(16, 15, 15);
+        margin: 40px;    
+            &:hover{
+                transition: 1.2s;
+                transform: scale(1.2);
+            }
+        .card-title {
+            font-size: $t2-size;
+            color: $card-itle-color;
+            text-transform: capitalize;
+            padding-top: 15px;
+            font-family: $font1;
+        }
+        p {
+            color: $card-p-color;
+            margin: 5px;
+            padding-top: 10px;
+            
+        }
+        a {
+            background-color: rgb(75, 75, 75);
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            &:hover {
+                color: $hover-color;
+            }
+        }
+        .card-img {
+            height: 200px;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+        .img-uno {
+            background-image: url(./multimedia/chapadmalal-640x439.jpeg);
+        }
+        .img-dos {
+            background-image: url(./multimedia/mar\ del\ plata\ surf.webp);
+        }
+        .img-tres {
+            background-image: url(./multimedia/El-Muelle-de-Miramar.jpg);
+        }
+        .img-cuatro {
+            background-image: url(./multimedia/mar\ de\ las\ pampas.jpeg);
+        }
+        .img-cinco {
+            background-image: url(./multimedia/mar\ chiquita.jpeg);
+        }
+        .img-seis {
+            background-image: url(./multimedia/mar\ de\ ajo.jpeg);
+        }
+        .img-siete {
+            background-image: url(./multimedia/tuyu.webp);
+        }
+        .img-ocho {
+            background-image: url(./multimedia/quequen.jpeg);
+        }
+        .img-nueve {
+            background-image: url(./multimedia/villa\ gesel.jpeg);
+        }
+    }
+}
+.subtitle-spots {
+    height: 100px;
+    color: $subtitle-color;
+    font-size: $t2-size;
+    text-align: center;
+    font-family: $font1;
+}

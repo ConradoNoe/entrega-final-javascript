@@ -1,0 +1,96 @@
+.main-accesorios {
+    .main-sect-accesorios {
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/img-bk-accesorios.jpg);
+        background-size: cover;
+        background-position: center;
+        .title-accesorios {
+            font-size: $t1-size;
+            text-align: center;
+            color: $color-titles;
+            font-family: 'Anton', sans-serif;
+            font-family: 'Fjalla One', sans-serif;
+            font-family: 'Russo One', sans-serif;
+            padding-top: 20px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        p {
+            font-size: $p-xs;
+            color: $letra;
+            margin-top: 200px;
+            margin-bottom: 40px;
+        }
+        .button-accesorios {
+            background-color: $button-bk;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            margin-bottom: 10px;
+            margin-top: 90px;
+            &:hover {
+                color: $hover-color;
+            }
+        }
+    }
+}
+.accesorios-sec-2 {
+    .accesorios-general {
+        .accesorios-subtitle {
+            font-family: 'Anton', sans-serif;
+            font-family: 'Fjalla One', sans-serif;
+            color: $subtitle-color;
+            font-size: $t2-size;
+            margin-top: 40px;
+            text-align: center;
+            margin: 30px;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+        p {
+            font-size: $p-xs;
+            color: $letra;
+            margin-top: 20px;
+            
+        }
+        .img-acc {
+            width: 100%;
+            height: 300px;
+        }
+        .img-accesorios-uno {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/surf-boards-accesorios.jpeg);
+            background-position: center;
+            background-size: cover;
+        }
+        .img-accesorios-dos {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/quillas-accesorios.jpeg);
+            background-position: center;
+            background-size: cover;
+        }
+        .img-accesorios-tres {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/leash.jpeg);
+            background-position: center;
+            background-size: cover;
+        }
+        .img-accesorios-cuatro {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(./multimedia/Wetsuit-accesorios.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        .button-accesorios {
+            background-color: grey;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            &:hover {
+                color: $hover-color;
+                transform: scale(1.1);
+                transition: 0.7s;
+            }
+        }
+    }
+}

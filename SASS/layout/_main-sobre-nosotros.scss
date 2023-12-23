@@ -1,0 +1,88 @@
+.main-nos {
+    .main-sect-sobre-nos {
+        height: 100vh;
+        color: white;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/bk-sobre-nos-1.jpg);
+        background-size: cover;
+        background-position: center;
+        .title-nos {
+            font-size: $t1-size;
+            color: $color-titles;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            font-family: $font1;
+        }
+        .main-sobre-nos-p {
+            padding-top: 120px;
+            padding-bottom: 20px;
+            color: $letra;
+            font-size: $p-xs;
+        }
+        .main-button-sobre-nos {
+            padding: 10px 20px;
+            background-color: $button-bk;
+            text-decoration: none;
+            color: white;
+            text-transform: capitalize;
+            border: 1px solid white;
+            margin: 30px;
+            &:hover {
+                color: $hover-color;
+                transform: scale(1.1);
+                transition: 0.7s;
+                
+            }
+        }
+    }
+}
+.general-section {
+    .articles-sobre-nos {
+        .subtitle-nos-2 {
+            color: $subtitle-color;
+            font-family: 'Anton', sans-serif;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: $t2-size;
+        }
+        .parrafito-s-n {
+            color: $letra;
+            font-size: $p-xs;
+        }
+    }
+    .aside-sobre-nos {
+        border-left: 2px solid white;
+        .subtitle-nos-2 {
+            color: $subtitle-color;
+            font-family: 'Anton', sans-serif;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: $t2-size;
+        } 
+        .parrafito-s-n {
+            color: $letra;
+            font-size: $p-xs;
+        }
+    }
+}
+.sec-nos-redes {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/banner-nos-def.jpg);
+    background-position: center;
+    background-size: cover;
+    .subtitle-redes {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        padding-top: 20px;
+        text-transform: capitalize;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+}
+            
