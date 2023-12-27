@@ -120,11 +120,18 @@ const carritoAdds = () => {
         let restar = carritoContent.querySelector(".restar")
 
         restar.addEventListener("click", ()=> {
+            if (product.stock !== 1)
             product.stock --;
             carritoAdds()
+            guardalocal()
             
         })
         let sumar = carritoContent.querySelector(".sumar")
+        sumar.addEventListener("click", ()=> {
+            product.stock++
+            carritoAdds()
+            guardalocal()
+        })
 
         let eliminarProductoDelCarrito = document.createElement("span")
         eliminarProductoDelCarrito.innerHTML = "❌"
