@@ -55,31 +55,8 @@
             </div>
         </nav>
     </header> 
+    
     <!-- nav bar fin-->
-    <!-- <main class="form-pag">
-        <form data-aos="zoom-in">
-            <h1 class="form-title">inicia sesion</h1>
-            <p class="form-p">aun no te registraste? <a href="#">entra aqui</a></p>
-            <div class="form-container">
-                <div class="form-group">
-                    <input type="text" id="name" class="form-input" placeholder= "  " >
-                    <label for="name" class="form-label">nombre</label>
-                    <span class="form-line"></span>
-                </div>
-                <div class="form-group">
-                    <input type="text" id="user" class="form-input" placeholder= "  " >
-                    <label for="user" class="form-label">usuario</label>
-                    <span class="form-line"></span>
-                </div>
-                <div class="form-group">
-                    <input type="password" id="password" class="form-input" placeholder= "  " >
-                    <label for="password" class="form-label">contraseña</label>
-                    <span class="form-line"></span>
-                </div>
-                <input type="submit" class="form-submit" value="entrar">
-            </div>
-        </form>
-    </main> -->
     <main class="form-pag">
         <form id="miFormulario" data-aos="zoom-in">
             <h2 class="form-title">ingresa tus datos</h2>
@@ -109,7 +86,38 @@
                 <p id="datosGuardadosBien"></p>
             </div>
         </form>
+
+        <section class="weather-content">
+            <h1>Buscador del clima</h1>
+            <div class="result">
+                <p>Agrege cuidad y pais</p>
+                <h5>Clima en Bogota</h5>
+                <img src="" alt="">
+                <h2>28°C</h2>
+                <p>Max: 29°C</p>
+                <p>Min: 27°C</p>
+            </div>
+            <form action="" method="POST" class="get-weather">
+                <input type="text" name="city" id="city" placeholder="Write your city...">
+                <select name="" id="country">
+                    <option disabled selected value="">Select the country</option>
+                    <option value="AR">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="ES">España</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="MX">México</option>
+                    <option value="PE">Perú</option>
+                </select>
+                <input type="submit" name="" id="" value="Get Weather">
+            </form>
+        </section>
+        
     </main>
+
+    
+
+    
         
     <footer class="conteiner-fluid">
         <div class="row">
@@ -132,6 +140,9 @@
     <script>
         AOS.init();
     </script>
+
+    <script src="../javascript/formulario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
 </body>
 </html>
